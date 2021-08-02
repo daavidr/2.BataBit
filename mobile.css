@@ -8,6 +8,8 @@
     --grey: #bababa;
     --off-white: #faf8f7;
     --just-white: #fff;
+    --dark-grey: #757575;
+    --darker-grey: #808080;
 }
 
 * {
@@ -88,4 +90,40 @@ header img {
     height: 8px;
     margin-left: 10px;
     background-image: url('./assets/icons/down-arrow.png');
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+.main-exchange-container {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.main-exchange-container__text {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main-exchange-container__text h2 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    align-self: center;
+}
+
+.main-exchange-container__text p {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--dark-grey);
 }
