@@ -140,8 +140,6 @@ main {
     color: var(--dark-grey);
 }
 
-/* Acuérdate de que cuando vayas a estilar Currency y Comisions, las tablas tienen las mismas clases, entonces tienes que especificar que te refieres a Currency y a Commisions si quieres editar las tablas por separado. Y trae algún dulce cuando veas esto. */
-
 .trend-down {
     display: inline-block;
     width: 15px;
@@ -184,8 +182,6 @@ main {
     background-image: url('./assets/icons/right-arrow.png');
     background-repeat: no-repeat;
 }
-
-/* Acuérdate de que cuando vayas a estilar Currency y Comisions, las tablas tienen las mismas clases, entonces tienes que especificar que te refieres a Currency y a Commisions si quieres editar las tablas por separado. Y trae algún dulce cuando veas esto. */
 
 .main-currency-table, .main-comisions-table {
     width: 70%;
@@ -255,4 +251,76 @@ main {
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--secondary-blue);
+}
+
+.currency-table__date {
+    width: 175px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: var(--soft-orange);
+}
+
+.comisions-table__date {
+    width: 175px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: var(--soft-blue);
+}
+
+
+.currency-table__date p, .comisions-table__date p {
+    font-family: "Inter", sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+}
+
+.main-product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+
+.papa-icon {
+    position: absolute;
+    top: calc(0% - 12.5px);
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('./assets/icons/batata.png');
+}
+
+.main-product-detail__title {
+    width: 90%;
+    min-width: 290px;
+    height: auto;
+    margin: 50px auto 0px;
+    text-align: center;
+}
+
+.main-product-detail__title h2 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.main-product-detail__title p {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--darker-grey);
 }
